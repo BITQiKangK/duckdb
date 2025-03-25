@@ -474,4 +474,13 @@ struct SemMapFun {
 	static ScalarFunction GetFunction();
 };
 
+struct SemFilterFun {
+	static constexpr const char *Name = "sem_filter";
+	static constexpr const char *Parameters = "string";
+	static constexpr const char *Description = "Filter the input string using LLM, returns true or false";
+	static constexpr const char *Example = "sem_filter('hello')";
+
+	static ScalarFunction GetFunction();
+};
+
 } // namespace duckdb

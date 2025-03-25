@@ -324,5 +324,19 @@
         "example": "sha256('hello')",
         "type": "scalar_function_set",
         "struct": "SHA256Fun"
+    },
+    {
+        "name": "sem_filter",
+        "parameters": "string",
+        "description": "Returns true if the string is a valid semantic entity",
+        "example": "sem_filter('Hello')",
+        "type": "scalar_function"
+    },
+    {
+        "name": "sem_map",
+        "parameters": "string",
+        "description": "Returns the semantic mapping of the string",
+        "example": "sem_map('Hello')",
+        "type": "scalar_function"
     }
 ]

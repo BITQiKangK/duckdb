@@ -19,7 +19,8 @@ add_library_unity(
   string_split.cpp
   suffix.cpp
   contains.cpp
-  sem_map.cpp)
+  sem_map.cpp
+  sem_filter.cpp)
 set(ALL_OBJECT_FILES
     ${ALL_OBJECT_FILES} $<TARGET_OBJECTS:duckdb_func_string_main>
     PARENT_SCOPE)

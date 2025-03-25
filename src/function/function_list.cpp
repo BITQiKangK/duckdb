@@ -174,6 +174,7 @@ static const StaticFunctionDefinition function[] = {
 	DUCKDB_SCALAR_FUNCTION(ILikeFun),
 	DUCKDB_SCALAR_FUNCTION(GlobPatternFun),
 	DUCKDB_SCALAR_FUNCTION(SemMapFun),
+	DUCKDB_SCALAR_FUNCTION(SemFilterFun),
 	FINAL_FUNCTION
 };
 
